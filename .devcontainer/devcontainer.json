@@ -1,0 +1,14 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/android:1-22",
+  "features": {
+    "ghcr.io/devcontainers/features/android-emulator:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "developer.android.tools"
+      ]
+    }
+  },
+  "forwardPorts": [ 5554, 5555 ]
+}
